@@ -13,6 +13,8 @@ Install Packages
 sudo apt-get install feh
 sudo apt-get install xscreensaver
 
+git clone https://github.com/tkent42/DigitalFrame
+
 Edit autostart to use this file
 sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart
 
