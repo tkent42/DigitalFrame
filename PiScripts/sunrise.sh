@@ -1,1 +1,1 @@
-[ -d /home/pi/Media/Pictures/Art/DaySlideshow ] && sudo mv /home/pi/Media/Pictures/Art/Slideshow/ /home/pi/Media/Pictures/Art/DimSlideshow/ && sudo mv /home/pi/Media/Pictures/Art/DaySlideshow/ /home/pi/Media/Pictures/Art/Slideshow/ 
+[ -d /home/pi/Art/DaySlideshow ] && sudo mv /home/pi/Art/Slideshow/ /home/pi/Art/DimSlideshow/ && sudo mv /home/pi/Art/DaySlideshow/ /home/pi/Art/Slideshow/ 
