@@ -14,7 +14,7 @@ sudo reboot
 
 Install Packages (I have had to update again before install not sure why)
 ```
-sudo apt-get update && sudo apt-get install -y feh && sudo apt-get install -y xscreensaver(no Screensaver?)
+sudo apt-get update && sudo apt-get install -y feh 
 ```
 Edit config settings for particular screen:
 ```
@@ -39,10 +39,7 @@ git clone https://github.com/tkent42/DigitalFrame
 mkdir /home/pi/Art
 ```
 Edit scrpts to your system, I share the pictures from my server via Samba but you can also just have them on the SD locally.
-```
-sudo nano /boot/cmdline.txt
-consoleblank=0
-```
+
 Edit autostart to use script on boot:
 ```
 sudo nano /home/pi/.config/lxsession/LXDE-pi/autostart
