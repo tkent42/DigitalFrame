@@ -59,7 +59,20 @@ Add line:
 ```
 pi ALL=(ALL) NOPASSWD: /home/pi/DigitalFrame/PiScrips/runslideshow.sh, /home/pi/DigitalFrame/PiScrips/sunset.sh, /home/pi/DigitalFrame/PiScrips/sunrise.sh
 ```
+The raspberry pi can't dim my monitor over hdmi so I made two sets of images so I could switch at Sunrise and Sunset
+```
+mkdir Slideshow
+mkdir DimSlideshow
+mkdir DaySlideshow
+```
+The runslideshow.sh continously plays from the Slideshow directory then run the sunset.sh script and it will move the folder from DimSlideshow to Slideshow and then sunrise.sh will move the DaySlideshow to Slideshow. There is probably a way to do this without IFTTT but it was a fun project. 
+
 Run Scripts from Dropbox so you can use IFTTT to change to dim images at sunset and bright images at sunrise:
 Follow the directions at https://beebom.com/how-to-run-commands-on-raspberry-pi-by-email/
 
+Then once you can email trigger@recipe.ifttt.com with commands you can send /home/pi/DigitalFrame/PiScripts/sunrise.sh in the body of the email to trigger the script.
+
+At some point I want to be able to show gifs like
+https://github.com/kershner/RPi_Display
+https://github.com/timothyreese/the-gift
 
