@@ -4,18 +4,18 @@
 In Progress, first Repo...
 
 Make sure Pi is up to date and upgrade:
-,,,
+'''
 sudo apt-get update && sudo apt-get upgrade
-,,,
+'''
 
-,,,
+'''
 sudo reboot
-,,,
+'''
 
 Install Packages (I have had to update again before install not sure why)
-,,,
+'''
 sudo apt-get update && sudo apt-get install -y feh && sudo apt-get install -y xscreensaver(no Screensaver?)
-,,,
+'''
 Edit config settings for particular screen:
 sudo nano /boot/config.txt
 
