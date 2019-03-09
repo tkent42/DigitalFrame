@@ -12,7 +12,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo reboot
 ```
 
-Install Packages (I have had to update again before install not sure why)
+Install Packages (I have had to update again before install not sure why) Also recently feh has not been installing so I had to follow instructions on https://www.raspberrypi.org/forums/viewtopic.php?t=228095
 ```
 sudo apt-get update && sudo apt-get install -y feh 
 ```
